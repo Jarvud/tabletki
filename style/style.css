@@ -1,0 +1,299 @@
+body {
+  margin: 0 auto;
+}
+
+.header {
+  background-color: rgb(202, 180, 219);
+}
+.main {
+  /* height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row; */
+}
+
+.logotip {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 50px;
+  height: 70px;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #f7ff00, #db36a4);
+}
+.welcome__video {
+  padding-top: 100px;
+  margin: 0 auto;
+  padding-right: 100px;
+}
+.welcome__foto {
+  margin: auto;
+}
+.foto {
+  padding-left: 240px;
+  padding-top: 30px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.welcome__info {
+  color: #030303;
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  padding-left: 150px;
+}
+h1 {
+  color: #d49d36;
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* состав продукта */
+
+.sostav__produckta {
+  background: linear-gradient(to right, #f7ff00, #db36a4);
+  display: flex;
+  align-items: center;
+}
+
+.sostav__produckta__image {
+  width: 50%;
+  text-align: center;
+}
+
+.sostav__produckta__image img {
+  max-width: 80%;
+}
+
+.ingredients {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ingredient {
+  margin-bottom: 20px;
+}
+
+.ingredient-image {
+  width: 50%;
+  margin: 0 auto;
+  padding-right: 350px;
+}
+
+.ingredient-image img {
+  max-width: 100%;
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px;
+}
+
+.ingredient-name {
+  margin-top: 10px;
+  justify-content: center;
+  color: #030303;
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  padding-left: 50px;
+}
+
+/* отзывы */
+
+.otzivi {
+  background: linear-gradient(to right, #f7ff00, #db36a4);
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.review-item {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.review-image {
+  width: 50%;
+  justify-content: center;
+}
+
+.review-image img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.review-content {
+  margin-top: 10px;
+}
+
+.reviewer-name {
+  text-align: center;
+  color: #030303;
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  padding-left: 150px;
+}
+
+.review-text {
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+}
+
+/* промо */
+
+.product-section {
+  background: linear-gradient(to right, #f7ff00, #db36a4);
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 30%;
+  text-align: center;
+}
+
+.product-image img {
+  max-width: 80%;
+  padding-left: 150px;
+}
+
+.product-description {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.product-features {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.product-features li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  color: #f4c134;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  border-radius: 20%;
+  background-color: white;
+  padding: 5px;
+}
+
+.order-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
+}
+.product-section__text {
+  text-align: center;
+  color: #030303;
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  padding-left: 150px;
+}
+
+.product-description__LU {
+  color: #d49d36;
+  font-size: 150px;
+  font-family: "Anton", sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* форма заказа */
+
+.product-section {
+  background: linear-gradient(to right, #f7ff00, #db36a4);
+  text-align: center;
+}
+
+.zakaz__product-image {
+  position: absolute;
+  float: left;
+  padding-left: 1550px;
+}
+
+.zakaz__product-image img {
+  max-width: 80%;
+  padding-top: 30px;
+}
+
+.product-pricing {
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  padding-left: 1350px;
+  color: #d49d36;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #aaa;
+  display: inline-block;
+}
+
+.discount {
+  color: red;
+  font-size: 25px;
+}
+
+.order-form {
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  padding-left: 1000px;
+}
+
+.new-price {
+  animation: pulse 2s infinite;
+}
+
+.product-section__text__zakaz {
+  color: #d49d36;
+  font-size: 150px;
+  font-family: "Anton", sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  padding-left: 100px;
+}
+
+#timer {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #030303;
+  font-size: 100px;
+  font-family: "Anton", sans-serif;
+  padding-left: 120px;
+}
+
+.but__zakas {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+}
